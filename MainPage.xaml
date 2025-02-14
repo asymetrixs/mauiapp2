@@ -6,17 +6,22 @@
 
     <ContentPage.MenuBarItems>
         <MenuBarItem Text="File">
-            <MenuFlyoutItem Text="Test">
+            <MenuFlyoutItem Text="F Test">
                 <MenuFlyoutItem.KeyboardAccelerators>
                     <KeyboardAccelerator Key="b" Modifiers="Cmd" />
                 </MenuFlyoutItem.KeyboardAccelerators>
             </MenuFlyoutItem>
-            <MenuFlyoutItem Text="Test 2">
+            <MenuFlyoutItem Text="F Test 2">
                 <MenuFlyoutItem.KeyboardAccelerators>
                     <KeyboardAccelerator Key="e" Modifiers="Cmd" />
                 </MenuFlyoutItem.KeyboardAccelerators>
             </MenuFlyoutItem>
-            <MenuFlyoutItem Text="Test 3" />
+            <MenuFlyoutItem Text="F Test 3" />
+        </MenuBarItem>
+        <MenuBarItem Text="Custom Menu">
+            <MenuFlyoutItem Text="CM Test" />
+            <MenuFlyoutItem Text="CM Test 2" />
+            <MenuFlyoutItem Text="CM Test 3" />
         </MenuBarItem>
     </ContentPage.MenuBarItems>
 
